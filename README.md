@@ -20,6 +20,7 @@ rm zipCloudFiles.sh
 ```
 When the previous process end you can run this on another cell and then click on __download.tar.gz__
 ```python
+import os
 import shutil
 # The first path could be different in your machine
 shutil.move("/home/jovyan/work/download.tar.gz", os.getcwd())
